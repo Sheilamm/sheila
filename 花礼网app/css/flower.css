@@ -1,0 +1,241 @@
+*{
+	margin:0px;
+	padding: 0px;
+}
+.header{
+	width: 100%;
+	height:0.828rem;
+	background-color: #435448;
+	display: flex;
+	align-items: center;
+}
+.header-left{
+	width: 1.0628rem;
+	height: 0.828rem;
+	/*background-color: pink;*/
+}
+.header-logo{
+	width: 4.27rem;
+	height: 0.35rem;
+	/*background: aqua;*/
+	display: flex;
+	justify-content: center;
+}
+.header-logo img{
+	width: 2.51rem;
+	height: 100%;
+	vertical-align: middle
+}
+.header-right{
+	width: 1.0628rem;
+	height: 0.828rem;
+	/*background-color: pink;*/
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.header-right a{
+    font-size: 14px;
+    color: #FFFFFF;
+}
+.section{
+	width: 100%;
+	height: 3.07rem;
+	background-color: deeppink;
+	position: relative;
+}
+.section img{
+	width: 100%;
+	height: 100%;
+}
+.swiper{
+	width: 100%;
+	height: 0.3rem;
+/*	background-color: yellow;*/
+	position: absolute;
+	bottom: 0px;
+	left: 0px;	
+
+}
+.swiper div{
+	width: 5px;
+	height: 5px;
+	background-color: #FFFFFF;	
+	position: absolute;
+	border-radius: 50%;
+	
+}
+.swiper div:nth-child(1){
+	left: 42%;
+}
+.swiper div:nth-child(2){
+	left: 48%;
+}
+.swiper div:nth-child(3){
+	left: 54%;
+}
+.conpany{
+	width: 100%;
+	height:0.62rem ;
+/*	background-color: yellow;*/
+	display: flex;
+	
+}
+.conpany div{
+	font-size: 13px;
+	overflow: hidden;
+	white-space: nowrap;
+	text-align: center;
+	line-height:0.62rem ;
+}
+.conpany div::before{
+	content: "\e666";
+    font-family: "iconfont" !important;
+    font-size: 18px;
+    font-style: normal;
+    -webkit-font-smoothing: antialiased;	
+    color: #435448;
+    margin-right: 2px;
+    vertical-align: bottom;
+}
+.conpany div{
+	flex:1;
+}
+.line{
+	width: 90%;
+	height: 1px;
+	background-color: #F9FAFB;
+	margin: 1 auto;
+}
+.product{
+	width: 100%;
+	height: 1.21rem;
+	/*background-color: aquamarine;*/
+	display: flex;
+	
+}
+.product div{
+	text-align: center;
+	position: relative;
+}
+.product div{
+	flex: 1;
+	
+}
+.product div img{
+	width: 0.62rem;
+	height: 0.62rem;
+	position: absolute;
+	 top: 0.2rem;
+    left: 0.32rem
+	
+}
+.product div p{
+	font-size: 13px;
+	color: #707273;
+	position: absolute;
+	top: 40px;
+	left: 0.32rem;
+}
+.newuser{
+	width: 100%;
+	height: 2.04rem;
+/*	background-color: #FFC0CB;*/
+}
+.newuser img{
+	width: 100%;
+	height: 100%;
+}
+.scene{
+	width: 100%;
+	height: 10.2rem;
+	background-color: #FFC0CB;
+	box-sizing: border-box;
+    padding-bottom: 10px;
+}
+.scene .modetitle{
+	width: 100%;
+	height: 0.605rem;
+/*	background-color: aqua;*/
+	 display: flex;
+    -webkit-box-align: center;
+     align-items: center;
+    padding:10px; 
+    font-family: "黑体";
+    font-size: 16px;
+    box-sizing: border-box;
+    color: #3D4042;  
+}
+.scene .modetitle::before{
+	content: "";
+	width: 2px;
+	height: 16px;
+	margin-right: 5px;
+	background:#3D4042; 
+}
+.scene .scene-list{
+	width: 100%;
+	height: 2.2rem;
+/*	background-color: aqua;*/
+	padding: 0 6px;
+	display: flex;
+	box-sizing: border-box;
+	justify-content: space-around;
+	
+}
+.scene .scene-list div{
+	width: 1.985rem;
+	/*height: 2.2rem;*/
+	/*background-color: orange;*/
+	border-radius:2px;
+	position: relative;
+}
+.scene .scene-list div img{
+	width: 100%;
+	height: 100%;
+	border-radius:2px;
+	background: #FFF2F5;
+}
+.scene .scene-list div span{
+	font-size: 12px;
+	position: absolute;
+	top: 0.2rem;
+	left: 0.6rem;
+}
+.scene-list:nth-child(3){
+	height: 1.66rem;
+}
+.scene-list:nth-child(3) div{
+	width: 1.47rem;
+	height: 1.66rem;
+	box-sizing: border-box;
+	padding-top: 6px;
+}
+.scene-list:nth-child(3) div span{
+	font-size: 12px;
+	position: absolute;
+	top: 0.2rem;
+	left: 0.24rem;
+	color:#232628 ;
+}
+.scene-list:nth-child(4){
+	height: 2.77rem ;
+}
+.scene-list:nth-child(4) div{
+	width: 3.09rem;
+	height: 2.75rem;
+	border: 1px solid #E9ECF0;
+	margin-top: 6px;
+	box-sizing: border-box;
+}
+.scene-list:nth-child(4) div:nth-child(1){
+	border-right: none;
+}
+.scene-list:nth-child(5) div{
+	margin-top: 12px;
+	width: 1.98rem;
+	height: 2.21rem;
+}
+.scene-list:nth-child(5) div img{
+	width: 1.98rem;
+	height: 2.21rem;
